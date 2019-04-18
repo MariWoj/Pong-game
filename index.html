@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gra - pong</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="game-table">
+        <canvas></canvas>
+    </section>
+    <section class="result">
+        <h1>Twoje wyniki:</h1>
+        <div class="stats">
+            <p>Nie masz jeszcze rozegranych gier</p>
+        </div>
+    </section>
+    <section class="difficulty">
+        <h1>Wybierz poziom trudności</h1>
+        <button id='low' class="level active">Niski</button>
+        <button id='medium' class="level">Średni</button>
+        <button id='high' class="level">Wysoki</button>
+    </section>
+    <button id="start">Start!</button>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
